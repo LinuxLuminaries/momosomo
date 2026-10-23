@@ -9,6 +9,7 @@ for the record and so sources can be re-verified).
 | File | Photographer | Source | Used on |
 |---|---|---|---|
 | hero-momos.jpg | Abhishek Sanwa Limbu | unsplash.com/photos/dumpling-dishes-LR559Dcst70 | Home hero, Contact OG image |
+| menu-drinks.jpg, menu-fried.jpg | see Unsplash originals | (source not recorded — re-verify) | Home combo cards |
 | menu-combos.jpg | Negley Stockman | unsplash.com/photos/a-group-of-people-sitting-around-a-table-with-food-Hf9rSoiCKX0 | Menu OG image |
 
 None of these photos are of an actual MomoSomo location — they stand in for
@@ -24,6 +25,6 @@ typographic layout (matching the printed menu cards), and the About/Gallery
 pages were removed. These files are unused leftovers — safe to delete, or
 keep on hand if a future redesign wants photography again.
 
-story-steam.jpg, menu-steamed.jpg, menu-fried.jpg, menu-special.jpg,
-menu-sides.jpg, menu-drinks.jpg, gallery-counter.jpg, gallery-kitchen.jpg,
+story-steam.jpg, menu-steamed.jpg, menu-special.jpg,
+menu-sides.jpg, gallery-counter.jpg, gallery-kitchen.jpg,
 gallery-steaming.jpg, gallery-tables.jpg, gallery-packaging.jpg, gallery-evening.jpg
