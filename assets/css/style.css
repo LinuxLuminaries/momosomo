@@ -622,8 +622,6 @@ main:has(> .marquee:last-child) + .site-footer { margin-top: 0; }
 .menu-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
-  /* 1fr rows: every card in the grid gets the height of the tallest one */
-  grid-auto-rows: 1fr;
   gap: 1rem;
 }
 .menu-item {
@@ -639,7 +637,12 @@ main:has(> .marquee:last-child) + .site-footer { margin-top: 0; }
   transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out), border-color 180ms var(--ease-out);
 }
 /* Small square thumbnail on the left; only momo cards have one */
-.menu-item:has(.menu-item__img) { grid-template-columns: 120px auto 1fr auto; }
+.menu-item:has(.menu-item__img) {
+  grid-template-columns: 120px auto 1fr auto;
+  align-items: center;
+  align-content: center;
+  padding: 0.75rem;
+}
 .menu-item__img {
   width: 120px;
   height: 120px;
