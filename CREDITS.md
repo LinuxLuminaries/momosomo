@@ -22,7 +22,7 @@ photo.
 
 Cropped to 640×480. CC BY / CC BY-SA licences require crediting the author and
 licence — keep this table with the site. `combo-fries.jpg` (home page) is a
-composite of the `fried` and `fries-peri` sources below; `menu/peri-peri.jpg`
+composite of `menu/fried.jpg` below and the peri-peri fries photo by Gpkp, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Fries_(Peri_Peri)_2026.jpg; `menu/peri-peri.jpg`
 and `menu/open.jpg` are crops of `menu-special.jpg` and `hero-momos.jpg` (Unsplash).
 
 | File | Author | Licence | Source |
@@ -33,13 +33,6 @@ and `menu/open.jpg` are crops of `menu-special.jpg` and `hero-momos.jpg` (Unspla
 | menu/fried.jpg | Dhanwanthkurup | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Fried_momos.jpg |
 | menu/jhol.jpg | Shristi Kapali | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jhol_Momo.jpg |
 | menu/chicken.jpg | Biswarup Ganguly | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Chicken_Momo_-_Howrah_2013-10-10_3254.JPG |
-| menu/fries.jpg | StockSnap | CC0 | https://commons.wikimedia.org/wiki/File:French_Fries.JPG |
-| menu/fries-peri.jpg | Gpkp | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Fries_(Peri_Peri)_2026.jpg |
-| menu/mojito-lime.jpg | Evan Swigart from Chicago, USA | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mojito_made_with_rum,_lime,_sugar,_mint,_club_soda,_served_in_a_tall_glass_-_Evan_Swigart.jpg |
-| menu/mojito-watermelon.jpg | Evangelin5 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Watermelon_Mojito-Chennai-Tamil_Nadu-DED_001.jpg |
-| menu/mojito-strawberry.jpg | Neha Deshmukh nehadeshmukh | CC0 | https://commons.wikimedia.org/wiki/File:Strawberry_Mojito_(Unsplash).jpg |
-| menu/mojito-pineapple.jpg | Paux127 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Mojito_de_pi%C3%B1a_by_King_of_Mojtos.jpg |
-| menu/mojito-berry.jpg | Infrogmation of New Orleans | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:MayasNOLAMojitos.jpg |
 
 ## Unused, still in assets/img/ (not referenced by any page)
 

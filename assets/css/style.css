@@ -638,14 +638,13 @@ main:has(> .marquee:last-child) + .site-footer { margin-top: 0; }
   border-radius: var(--radius-md);
   transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out), border-color 180ms var(--ease-out);
 }
+/* Small square thumbnail on the left; only momo cards have one */
+.menu-item:has(.menu-item__img) { grid-template-columns: 84px auto 1fr auto; }
 .menu-item__img {
-  grid-column: 1 / -1;
-  width: calc(100% + 2.2rem);
-  max-width: none;
-  margin: -1rem -1.1rem 0.25rem;
-  aspect-ratio: 4 / 3;
+  width: 84px;
+  aspect-ratio: 1;
   object-fit: cover;
-  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  border-radius: var(--radius-md);
 }
 .menu-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-card); border-color: var(--line); }
 .menu-item[hidden] { display: none; }
