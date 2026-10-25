@@ -621,19 +621,31 @@ main:has(> .marquee:last-child) + .site-footer { margin-top: 0; }
 
 .menu-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
-  gap: 0.85rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  /* 1fr rows: every card in the grid gets the height of the tallest one */
+  grid-auto-rows: 1fr;
+  gap: 1rem;
 }
 .menu-item {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: start;
+  align-content: start;
   gap: 0.75rem;
   padding: 1rem 1.1rem;
   background: var(--cream);
   border: 1px solid var(--line-soft);
   border-radius: var(--radius-md);
   transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out), border-color 180ms var(--ease-out);
+}
+.menu-item__img {
+  grid-column: 1 / -1;
+  width: calc(100% + 2.2rem);
+  max-width: none;
+  margin: -1rem -1.1rem 0.25rem;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
 }
 .menu-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-card); border-color: var(--line); }
 .menu-item[hidden] { display: none; }
