@@ -126,15 +126,15 @@
 
 <main id="main">
 
-  <section class="home-hero">
+  <section class="home-hero" aria-labelledby="hero-heading">
     <div class="wrap home-hero__grid">
       <div class="home-hero__copy">
-        <p class="eyebrow">Kumaraswamy Layout · Bengaluru</p>
-        <h1>Hot momos.<br>Bold chutney.<br><span class="hero__accent">Big happiness.</span></h1>
+        <p class="home-hero__tag"><span aria-hidden="true"></span>Kumaraswamy Layout · Bengaluru</p>
+        <h1 id="hero-heading">Hot momos.<br>Bold chutney.<br><span class="hero__accent">Big happiness.</span></h1>
         <p class="lede">Handmade veg and chicken momos — steamed, fried, Kothey, Jhol, Peri-Peri and Open — folded fresh and served with chutney that brings the heat.</p>
         <div class="hero__actions">
           <a href="menu.html" class="btn btn--primary">See menu &amp; prices</a>
-          <a href="https://wa.me/919902757364" class="btn btn--outline-ondark" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          <a href="https://wa.me/919902757364" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
         </div>
         <dl class="home-hero__stats">
           <div><dt>From</dt><dd>₹75</dd></div>
@@ -143,8 +143,11 @@
         </dl>
       </div>
       <div class="home-hero__media">
-        <img src="assets/img/hero-momos.jpg" width="2000" height="1335" alt="A plate of freshly steamed momos, served hot" fetchpriority="high">
+        <div class="home-hero__frame">
+          <img src="assets/img/hero-momos.jpg" width="2000" height="1335" alt="A plate of freshly steamed momos, served hot" fetchpriority="high">
+        </div>
         <span class="home-hero__badge">Made<br>to order</span>
+        <p class="home-hero__card"><strong>Veg &amp; chicken</strong><span>Every style, every plate</span></p>
       </div>
     </div>
   </section>
